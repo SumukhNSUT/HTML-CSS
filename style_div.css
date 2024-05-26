@@ -11,7 +11,7 @@ body {
 /*.....................*/
 body {
 	background-color: red;
-	display: flex;
+	display: flex; /* to make divs come next to one another instead of going in next line that is below the previous one, which is default */
 }
 div {
 	/* background-color: red; */
@@ -21,17 +21,18 @@ div {
 /* defining properties of divs separately */
 /* # is required */
 #box1 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: xx-large;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	font-size: xx-large;
 	background-color: aquamarine;
 }
 #box2 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: xx-large;
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	font-size: xx-large;
 	background-color: orange;
 }
 #box3 {
-    font-family: cursive;
-    font-size: xx-large;
+	font-family: cursive;
+	font-size: xx-large;
 	background-color: cadetblue;
 }
