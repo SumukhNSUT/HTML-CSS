@@ -4,5 +4,6 @@
 	"editor.tabCompletion": "off",
 	"emmet.triggerExpansionOnTab": false,
 	"C_Cpp.default.intelliSenseMode": "",
-	"C_Cpp.intelliSenseEngineFallback": "enabled"
+	"C_Cpp.intelliSenseEngineFallback": "enabled",
+	"editor.wordWrap": "on"
 }
