@@ -5,5 +5,10 @@
 	"emmet.triggerExpansionOnTab": false,
 	"C_Cpp.default.intelliSenseMode": "",
 	"C_Cpp.intelliSenseEngineFallback": "enabled",
-	"editor.wordWrap": "on"
+	"editor.wordWrap": "on",
+	"emmet.showSuggestionsAsSnippets": true,
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact",
+		"html": "html"
+	}
 }
