@@ -7,16 +7,25 @@ html,
 body {
 	width: 100%;
 	height: 100%;
+	/* align-items: center; */
 }
 /*.....................*/
 body {
 	background-color: red;
 	display: flex; /* to make divs come next to one another instead of going in next line that is below the previous one, which is default */
+	/* justify-content: center; */
+	justify-content: center; /* width-wise align */
+	align-items: center; /* height-wise align */
 }
 div {
 	/* background-color: red; */
 	width: 30%;
 	height: 30%;
+	text-align: center;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 /* defining properties of divs separately */
 /* # is required */
